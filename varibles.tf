@@ -3,7 +3,7 @@ variable "tags" {
   type        = map(any)
   default     = {}
 }
-variable "root_domain {
+variable "root_domain" {
   description = "The root domain"
   type        = string
 }
